@@ -1,5 +1,12 @@
 ---
 components:
+  test-mod:
+    component-type: puppet-module
+    authoritative: true
+    locations:
+    - url: https://github.com/simp/pupmod-simp-rsync
+      type: git
+      primary: true
   simp-doc:
     component-type: documentation
     authoritative: true
